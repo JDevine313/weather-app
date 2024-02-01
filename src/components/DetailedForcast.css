@@ -1,0 +1,54 @@
+.DetailedForcast {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.DetailedForcast .hour {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #97dffc;
+  margin: 10px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+.DetailedForcast .hour .time {
+  padding: 0 45px;
+}
+.DetailedForcast .hour span {
+  margin: 5px;
+}
+.DetailedForcast ul {
+  width: 215px;
+  margin: 0;
+  padding: 0;
+}
+.DetailedForcast ul li {
+  background-color: #4f6d7a;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+.DetailedForcast .quick-look {
+  background-color: #4f6d7a;
+  display: flex;
+  overflow-x: scroll;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.DetailedForcast .quick-look li {
+  background-color: #97dffc;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+.DetailedForcast .quick-look li span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70px;
+}

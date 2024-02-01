@@ -1,0 +1,47 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Header > button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 5px 10px;
+  z-index: 2;
+}
+#location-form-container {
+  position: fixed;
+  top: 10%;
+  right: 0;
+  bottom: 10%;
+  left: 0;
+  background-color: #4f6d7a;
+  z-index: 3;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#location-form-container form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+#location-form-container form label {
+  font-size: 1.5em;
+}
+#location-form-container form input {
+  font-size: 1.25em;
+}
+#location-form-container form button {
+  padding: 20px;
+  font-size: 1.25em;
+}

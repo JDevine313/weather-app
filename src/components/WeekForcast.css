@@ -1,0 +1,36 @@
+.WeekForcast {
+  background-color: #4f6d7a;
+  width: 90%;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+
+.WeekForcast ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.WeekForcast ul > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #97dffc;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+.WeekForcast ul > li > * {
+  padding: 0;
+  margin: 0;
+}
+.WeekForcast ul > li > * > * {
+  padding: 0;
+  margin: 0;
+}
+.WeekForcast ul > li > h3 {
+  font-size: 18px;
+}
+.WeekForcast ul > li > i {
+  text-align: right;
+}

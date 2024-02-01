@@ -1,0 +1,34 @@
+.TodaysForcast {
+  display: flex;
+  justify-content: center;
+  background-color: #4f6d7a;
+  width: 90%;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  color: black;
+}
+.TodaysForcast .my-inner-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 220px;
+  padding: 0 15%;
+}
+#carouselExample {
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+.my-inner-card p {
+  text-align: center;
+  margin: 0;
+}
+.TodaysForcast .carousel-inner {
+  height: 85%;
+  background-color: #97dffc;
+  border-radius: 10px;
+}
