@@ -13,7 +13,7 @@ The Weather App is a simple and user-friendly application that provides real-tim
 
 ## Accessing Live App
 
-You can access the live Weather App at [Your Live App URL](https://weather-app-55957.web.app).
+You can access the live Weather App at [https://weather-app-55957.web.app](https://weather-app-55957.web.app).
 
 ## Technologies Used
 
