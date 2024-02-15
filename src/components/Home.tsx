@@ -8,8 +8,10 @@ const Home = () => {
   return (
     <div className="Home">
       <CurrentForcast />
-      <TodaysForcast />
-      <WeekForcast />
+      <div id="flex-container">
+        <TodaysForcast />
+        <WeekForcast />
+      </div>
     </div>
   );
 };

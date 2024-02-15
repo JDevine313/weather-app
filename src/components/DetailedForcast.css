@@ -52,3 +52,13 @@
   align-items: center;
   width: 70px;
 }
+@media only screen and (min-width: 768px) {
+  .DetailedForcast ul {
+    width: 405px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .DetailedForcast ul {
+    width: 875px;
+  }
+}

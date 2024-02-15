@@ -32,3 +32,9 @@
   background-color: #97dffc;
   border-radius: 10px;
 }
+
+@media only screen and (min-width: 768px) {
+  .TodaysForcast {
+    width: 50%;
+  }
+}
